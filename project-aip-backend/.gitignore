@@ -1,5 +1,0 @@
-# IDE
-.idea/
-
-# Build directory
-cmake-build-debug/
