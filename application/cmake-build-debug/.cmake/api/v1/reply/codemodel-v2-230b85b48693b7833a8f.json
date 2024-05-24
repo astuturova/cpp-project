@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "test_1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "application::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-application-Debug-add4d0a733928ee2b58f.json",
+					"name" : "application",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "application_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-application_autogen-Debug-2bc71f09959fa0fb1c5d.json",
+					"name" : "application_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "application_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-application_autogen_timestamp_deps-Debug-ad4a98df36e95be3d873.json",
+					"name" : "application_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug",
+		"source" : "/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

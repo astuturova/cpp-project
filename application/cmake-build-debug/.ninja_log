@@ -1,13 +1,15 @@
 # ninja log v5
-966	1051	1716036202524030289	test_1	6743fae796643c00
-361	377	1716036201851571466	CMakeFiles/test_1.dir/test_1_autogen/mocs_compilation.cpp.o	830e848d24224c24
-4	361	1716036201835976212	test_1_autogen/mocs_compilation.cpp	cb2870d635d7b6a2
-361	964	1716036202435344441	CMakeFiles/test_1.dir/main.cpp.o	311e7dc6231b16ee
-4	361	1716036201835976212	test_1_autogen/timestamp	cb2870d635d7b6a2
-7	480	1716042187870014623	test_1_autogen/timestamp	2f5e3bea6a0df64a
-7	480	1716042187870014623	test_1_autogen/mocs_compilation.cpp	2f5e3bea6a0df64a
-7	480	1716042187870014623	/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/test_1_autogen/timestamp	2f5e3bea6a0df64a
-7	480	1716042187870014623	/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/test_1_autogen/mocs_compilation.cpp	2f5e3bea6a0df64a
-480	508	1716042187895527352	CMakeFiles/test_1.dir/test_1_autogen/mocs_compilation.cpp.o	f0a874e68fe7f570
-481	1293	1716042188680221734	CMakeFiles/test_1.dir/main.cpp.o	465b4455ad76ab4b
 1293	1414	1716042188801215198	test_1	6743fae796643c00
+480	508	1716042187895527352	CMakeFiles/test_1.dir/test_1_autogen/mocs_compilation.cpp.o	f0a874e68fe7f570
+7	480	1716042187870014623	test_1_autogen/mocs_compilation.cpp	2f5e3bea6a0df64a
+7	480	1716042187870014623	/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/test_1_autogen/mocs_compilation.cpp	2f5e3bea6a0df64a
+481	1293	1716042188680221734	CMakeFiles/test_1.dir/main.cpp.o	465b4455ad76ab4b
+7	480	1716042187870014623	test_1_autogen/timestamp	2f5e3bea6a0df64a
+7	480	1716042187870014623	/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/test_1_autogen/timestamp	2f5e3bea6a0df64a
+2	504	1716579823065746963	application_autogen/timestamp	fa77901cedb0458c
+2	504	1716579823065746963	application_autogen/mocs_compilation.cpp	fa77901cedb0458c
+2	504	1716579823065746963	/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/application_autogen/timestamp	fa77901cedb0458c
+2	504	1716579823065746963	/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/application_autogen/mocs_compilation.cpp	fa77901cedb0458c
+504	540	1716579823106636219	CMakeFiles/application.dir/application_autogen/mocs_compilation.cpp.o	9bfea47e16d0ca23
+504	1373	1716579823938244587	CMakeFiles/application.dir/main.cpp.o	79ec37647c6dfb53
+1375	1561	1716579824127249788	application	691bab778cca604a

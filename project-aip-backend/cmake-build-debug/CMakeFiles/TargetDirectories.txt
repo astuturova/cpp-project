@@ -1,0 +1,3 @@
+/Users/anastasiatuturova/CLionProjects/aip-cpp-project/project-aip-backend/cmake-build-debug/CMakeFiles/project_aip_backend.dir
+/Users/anastasiatuturova/CLionProjects/aip-cpp-project/project-aip-backend/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/anastasiatuturova/CLionProjects/aip-cpp-project/project-aip-backend/cmake-build-debug/CMakeFiles/rebuild_cache.dir
