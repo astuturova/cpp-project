@@ -1,0 +1,36 @@
+# CLion
+.idea/
+*.swp
+*.swo
+
+# Compiled output
+*/dist/
+*/tmp/
+*/out-tsc/
+*/bazel-out/
+
+# Node
+**/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Compiled output
+*/dist
+*/tmp
+*/out-tsc
+*/bazel-out
+
+# Dependencies
+**/node_modules/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# System files
+.DS_Store
+Thumbs.db
