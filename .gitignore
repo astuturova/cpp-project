@@ -1,6 +1,4 @@
 .DS_Store
-.idea
-./project-aip-backend/.idea
-./project-aip-backend/cmake-build-debug
-./application/.idea
-./application/cmake-build-debug
+# CLion
+.idea/
+cmake-build-debug-*/
