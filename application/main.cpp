@@ -34,6 +34,7 @@ private slots:
 
     void handleClick(QMouseEvent *event) {
         qDebug() << "Метка была нажата!";
+
     }
 };
 
@@ -51,6 +52,7 @@ int main(int argc, char *argv[]) {
     widget.setWindowTitle("Login widget");
     widget.setMinimumSize(600, 400);
 
+    bool signedUp = false;
 
     auto *userNameLabel = new QLabel("Имя пользователя");
     userNameLabel->setAlignment(Qt::AlignCenter);
