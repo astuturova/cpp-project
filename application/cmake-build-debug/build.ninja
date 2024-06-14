@@ -41,52 +41,52 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target test_1
+# Object build statements for EXECUTABLE target application
 
 
 #############################################
-# Order-only phony target for test_1
+# Order-only phony target for application
 
-build cmake_object_order_depends_target_test_1: phony || test_1_autogen test_1_autogen/mocs_compilation.cpp test_1_autogen/timestamp test_1_autogen_timestamp_deps
+build cmake_object_order_depends_target_application: phony || application_autogen application_autogen/mocs_compilation.cpp application_autogen/timestamp application_autogen_timestamp_deps
 
-build CMakeFiles/test_1.dir/test_1_autogen/mocs_compilation.cpp.o: CXX_COMPILER__test_1_unscanned_Debug /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/test_1_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_test_1
+build CMakeFiles/application.dir/application_autogen/mocs_compilation.cpp.o: CXX_COMPILER__application_unscanned_Debug /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/application_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_application
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/test_1.dir/test_1_autogen/mocs_compilation.cpp.o.d
+  DEP_FILE = CMakeFiles/application.dir/application_autogen/mocs_compilation.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
-  INCLUDES = -I/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/test_1_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers
-  OBJECT_DIR = CMakeFiles/test_1.dir
-  OBJECT_FILE_DIR = CMakeFiles/test_1.dir/test_1_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/test_1.dir/
-  TARGET_PDB = test_1.pdb
+  INCLUDES = -I/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/application_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers
+  OBJECT_DIR = CMakeFiles/application.dir
+  OBJECT_FILE_DIR = CMakeFiles/application.dir/application_autogen
+  TARGET_COMPILE_PDB = CMakeFiles/application.dir/
+  TARGET_PDB = application.pdb
 
-build CMakeFiles/test_1.dir/main.cpp.o: CXX_COMPILER__test_1_unscanned_Debug /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/main.cpp || cmake_object_order_depends_target_test_1
+build CMakeFiles/application.dir/main.cpp.o: CXX_COMPILER__application_unscanned_Debug /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/main.cpp || cmake_object_order_depends_target_application
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/test_1.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/application.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
-  INCLUDES = -I/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/test_1_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers
-  OBJECT_DIR = CMakeFiles/test_1.dir
-  OBJECT_FILE_DIR = CMakeFiles/test_1.dir
-  TARGET_COMPILE_PDB = CMakeFiles/test_1.dir/
-  TARGET_PDB = test_1.pdb
+  INCLUDES = -I/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/application_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers
+  OBJECT_DIR = CMakeFiles/application.dir
+  OBJECT_FILE_DIR = CMakeFiles/application.dir
+  TARGET_COMPILE_PDB = CMakeFiles/application.dir/
+  TARGET_PDB = application.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test_1
+# Link build statements for EXECUTABLE target application
 
 
 #############################################
-# Link the executable test_1
+# Link the executable application
 
-build test_1: CXX_EXECUTABLE_LINKER__test_1_Debug CMakeFiles/test_1.dir/test_1_autogen/mocs_compilation.cpp.o CMakeFiles/test_1.dir/main.cpp.o | /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore || test_1_autogen test_1_autogen_timestamp_deps
+build application: CXX_EXECUTABLE_LINKER__application_Debug CMakeFiles/application.dir/application_autogen/mocs_compilation.cpp.o CMakeFiles/application.dir/main.cpp.o | /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore || application_autogen application_autogen_timestamp_deps
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.5
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets  /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui  /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework OpenGL  -framework AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -F/opt/homebrew/lib
-  OBJECT_DIR = CMakeFiles/test_1.dir
+  OBJECT_DIR = CMakeFiles/application.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/test_1.dir/
-  TARGET_FILE = test_1
-  TARGET_PDB = test_1.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/application.dir/
+  TARGET_FILE = application
+  TARGET_PDB = application.pdb
 
 
 #############################################
@@ -113,37 +113,37 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 
 #############################################
-# Utility command for test_1_autogen_timestamp_deps
+# Utility command for application_autogen_timestamp_deps
 
-build test_1_autogen_timestamp_deps: phony CMakeFiles/test_1_autogen_timestamp_deps
-
-
-#############################################
-# Utility command for test_1_autogen
-
-build test_1_autogen: phony CMakeFiles/test_1_autogen test_1_autogen/timestamp test_1_autogen/mocs_compilation.cpp test_1_autogen_timestamp_deps
+build application_autogen_timestamp_deps: phony CMakeFiles/application_autogen_timestamp_deps
 
 
 #############################################
-# Custom command for test_1_autogen/timestamp
+# Utility command for application_autogen
 
-build test_1_autogen/timestamp test_1_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}test_1_autogen/timestamp ${cmake_ninja_workdir}test_1_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /opt/homebrew/share/qt/libexec/moc /opt/homebrew/share/qt/libexec/uic || test_1_autogen_timestamp_deps
-  COMMAND = cd /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug && "/Users/anastasiatuturova/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -E cmake_autogen /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/CMakeFiles/test_1_autogen.dir/AutogenInfo.json Debug && "/Users/anastasiatuturova/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -E touch /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/test_1_autogen/timestamp && "/Users/anastasiatuturova/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -E cmake_transform_depfile Ninja gccdepfile /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/test_1_autogen/deps /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/CMakeFiles/d/1e45ff51d51b8ea9044e4ec4c83f1c094bd77d3a72619021610ae830fda652dc.d
-  DESC = Automatic MOC and UIC for target test_1
-  depfile = /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/CMakeFiles/d/1e45ff51d51b8ea9044e4ec4c83f1c094bd77d3a72619021610ae830fda652dc.d
+build application_autogen: phony CMakeFiles/application_autogen application_autogen/timestamp application_autogen/mocs_compilation.cpp application_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for application_autogen/timestamp
+
+build application_autogen/timestamp application_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}application_autogen/timestamp ${cmake_ninja_workdir}application_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /opt/homebrew/share/qt/libexec/moc /opt/homebrew/share/qt/libexec/uic || application_autogen_timestamp_deps
+  COMMAND = cd /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug && "/Users/anastasiatuturova/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -E cmake_autogen /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/CMakeFiles/application_autogen.dir/AutogenInfo.json Debug && "/Users/anastasiatuturova/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -E touch /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/application_autogen/timestamp && "/Users/anastasiatuturova/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -E cmake_transform_depfile Ninja gccdepfile /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/application_autogen/deps /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/CMakeFiles/d/8065d5dc6c86c7a844f0e0b098750c6edf3adad87decb9de2fc54625e8d47285.d
+  DESC = Automatic MOC and UIC for target application
+  depfile = /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/CMakeFiles/d/8065d5dc6c86c7a844f0e0b098750c6edf3adad87decb9de2fc54625e8d47285.d
   restat = 1
 
 
 #############################################
-# Phony custom command for CMakeFiles/test_1_autogen_timestamp_deps
+# Phony custom command for CMakeFiles/application_autogen_timestamp_deps
 
-build CMakeFiles/test_1_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/test_1_autogen_timestamp_deps: phony /opt/homebrew/share/qt/libexec/moc /opt/homebrew/share/qt/libexec/uic
+build CMakeFiles/application_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/application_autogen_timestamp_deps: phony /opt/homebrew/share/qt/libexec/moc /opt/homebrew/share/qt/libexec/uic
 
 
 #############################################
-# Phony custom command for CMakeFiles/test_1_autogen
+# Phony custom command for CMakeFiles/application_autogen
 
-build CMakeFiles/test_1_autogen | ${cmake_ninja_workdir}CMakeFiles/test_1_autogen: phony test_1_autogen/timestamp || test_1_autogen_timestamp_deps
+build CMakeFiles/application_autogen | ${cmake_ninja_workdir}CMakeFiles/application_autogen: phony application_autogen/timestamp || application_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
@@ -156,7 +156,7 @@ build CMakeFiles/test_1_autogen | ${cmake_ninja_workdir}CMakeFiles/test_1_autoge
 #############################################
 # Folder: /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug
 
-build all: phony test_1
+build all: phony application
 
 # =============================================================================
 # Built-in targets

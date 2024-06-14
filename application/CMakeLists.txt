@@ -14,8 +14,8 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(test_1 main.cpp)
-target_link_libraries(test_1
+add_executable(application main.cpp)
+target_link_libraries(application
         Qt::Core
         Qt::Gui
         Qt::Widgets
