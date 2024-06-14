@@ -199,7 +199,6 @@ std::string sendRequest(const std::string &username, const std::string &password
     server.sin_family = AF_INET;
     server.sin_port = htons(8080);
 
-    // Написать свой ip adress
     if (inet_pton(AF_INET, "127.0.0.1", &server.sin_addr) <= 0) {
       throw std::runtime_error("Invalid address or address not supported");
     }
