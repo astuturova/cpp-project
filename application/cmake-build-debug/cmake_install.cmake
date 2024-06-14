@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application
+# Install script for directory: /Users/denisborisov/CLionProjects/test_1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/denisborisov/CLionProjects/test_1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
