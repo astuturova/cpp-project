@@ -1,14 +1,18 @@
 cmake_minimum_required(VERSION 3.26)
 project(project_aip_backend)
 
-add_executable(project_aip_backend main.cpp json.hpp
-        database.cpp database.h password.cpp password.h sqlite3.c user.cpp user.h)
+add_executable(project_aip_backend main.cpp include/json.hpp
+        api/database.cpp api/database.h models/password.cpp models/password.h include/sqlite3.c models/user.cpp models/user.h
+        api/encryptor.h
+        api/encryptor.cpp
+        tests/crypto_tests.cpp
+        include/doctest.h)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(BOOST_ROOT /opt/homebrew/Cellar/boost/1.85.0)
-set(BOOST_INCLUDEDIR /opt/homebrew/Cellar/boost/1.85.0/include)
-set(BOOST_LIBRARY_DIR /opt/homebrew/Cellar/boost/1.85.0/lib)
+set(BOOST_ROOT /usr/local/Cellar/boost/1.85.0)
+set(BOOST_INCLUDEDIR /usr/local/Cellar/boost/1.85.0/include)
+set(BOOST_LIBRARY_DIR /usr/local/Cellar/boost/1.85.0/lib)
 
 find_package(Boost 1.85.0 COMPONENTS system filesystem REQUIRED)
 
