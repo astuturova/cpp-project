@@ -1,1 +1,1 @@
-set(__QT_DEPLOY_TARGET_application_FILE /Users/anastasiatuturova/CLionProjects/aip-cpp-project/application/cmake-build-debug/application)
+set(__QT_DEPLOY_TARGET_test_1_FILE /Users/denisborisov/CLionProjects/test_1/cmake-build-debug/test_1)
