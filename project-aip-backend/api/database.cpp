@@ -266,6 +266,4 @@ std::vector<Password> selectPasswordByUserId(int id) {
   sqlite3_close(db);
   return passwords;
 }
-
 }
-
