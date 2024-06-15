@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['p4union_0',['p4union',['../union_vdbe_op_1_1p4union.html',1,'VdbeOp']]],
+  ['pager_1',['Pager',['../struct_pager.html',1,'']]],
+  ['pagersavepoint_2',['PagerSavepoint',['../struct_pager_savepoint.html',1,'']]],
+  ['parse_3',['Parse',['../struct_parse.html',1,'']]],
+  ['parse_5ferror_4',['parse_error',['../classdetail_1_1parse__error.html',1,'detail']]],
+  ['parsecleanup_5',['ParseCleanup',['../struct_parse_cleanup.html',1,'']]],
+  ['parser_6',['parser',['../classdetail_1_1parser.html',1,'detail']]],
+  ['password_7',['Password',['../class_password.html',1,'']]],
+  ['pcache_8',['PCache',['../struct_p_cache.html',1,'']]],
+  ['pcache1_9',['PCache1',['../struct_p_cache1.html',1,'']]],
+  ['pgfreeslot_10',['PgFreeslot',['../struct_pg_freeslot.html',1,'']]],
+  ['pghdr_11',['PgHdr',['../struct_pg_hdr.html',1,'']]],
+  ['pghdr1_12',['PgHdr1',['../struct_pg_hdr1.html',1,'']]],
+  ['pgroup_13',['PGroup',['../struct_p_group.html',1,'']]],
+  ['pmareader_14',['PmaReader',['../struct_pma_reader.html',1,'']]],
+  ['pmawriter_15',['PmaWriter',['../struct_pma_writer.html',1,'']]],
+  ['position_5ft_16',['position_t',['../structdetail_1_1position__t.html',1,'detail']]],
+  ['pragmaname_17',['PragmaName',['../struct_pragma_name.html',1,'']]],
+  ['pragmavtab_18',['PragmaVtab',['../struct_pragma_vtab.html',1,'']]],
+  ['pragmavtabcursor_19',['PragmaVtabCursor',['../struct_pragma_vtab_cursor.html',1,'']]],
+  ['preupdate_20',['PreUpdate',['../struct_pre_update.html',1,'']]],
+  ['primitive_5fiterator_5ft_21',['primitive_iterator_t',['../classdetail_1_1primitive__iterator__t.html',1,'detail']]],
+  ['printfarguments_22',['PrintfArguments',['../struct_printf_arguments.html',1,'']]],
+  ['priority_5ftag_23',['priority_tag',['../structdetail_1_1priority__tag.html',1,'detail']]],
+  ['priority_5ftag_3c_200_20_3e_24',['priority_tag&lt; 0 &gt;',['../structdetail_1_1priority__tag_3_010_01_4.html',1,'detail']]]
+];
